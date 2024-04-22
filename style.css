@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 300px auto;
+    text-align: center;
+  }
+
+.navbar{
+    margin-bottom: 100px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-card{
+    width: 150px;
+    height: 250px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+.cards-vinhos{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info-img{
+    max-width:350px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+}
+
+.cont-info{
+    display: flex;
+    /* background-color: darkgrey; */
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+    margin-left: 5%;
+}
+
+#quantidade, #cupom{
+    width: 25%;
+}
+
+.totalizar{
+    border-radius: 30px;
+    border-style: none;
+    background-color: coral;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.cartao-login{
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#user, #senha{
+    width: 200px;
+}
