@@ -1,4 +1,6 @@
 let precoVinho1 = 129.99
+let precoVinho2 = 149.99
+let precoVinho3 = 189.99
 
 function verificarIdade() {
     var idade = parseInt(document.getElementById('idadeInput').value);
@@ -17,6 +19,28 @@ function precototal(){
     let qtd = document.getElementById('quantidade').value
     let cupom = document.getElementById('cupom').value
     let total = qtd * precoVinho1
+    let desc = ''
+    if (cupom == 'FIAP2024'){
+        total = total - (total * 0.1)
+        desc = ' Desconto de 10%'
+    }
+    resultado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ desc
+}
+function precototal2(){
+    let qtd = document.getElementById('quantidade').value
+    let cupom = document.getElementById('cupom').value
+    let total = qtd * precoVinho2
+    let desc = ''
+    if (cupom == 'FIAP2024'){
+        total = total - (total * 0.1)
+        desc = ' Desconto de 10%'
+    }
+    resultado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ desc
+}
+function precototal3(){
+    let qtd = document.getElementById('quantidade').value
+    let cupom = document.getElementById('cupom').value
+    let total = qtd * precoVinho3
     let desc = ''
     if (cupom == 'FIAP2024'){
         total = total - (total * 0.1)
