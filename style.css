@@ -91,3 +91,8 @@ a{
 #user, #senha{
     width: 200px;
 }
+
+.formulario{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}

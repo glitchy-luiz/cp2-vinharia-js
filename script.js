@@ -36,3 +36,7 @@ function entrar(){
         alert('Usuário e/ou senha estão incorretas')
     }
 }
+
+function enviar(){
+    alert('Mensagem enviada com sucesso')
+}
