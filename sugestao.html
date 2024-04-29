@@ -20,13 +20,7 @@
                 <a class="nav-link active" aria-current="page" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sugestao.html">Recitas vinho1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sugestao2.html">Recitas vinho2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sugestao3.html">Recitas vinho3</a>
+                <a class="nav-link" href="sugestao.html">Sugestões de receitas</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -37,50 +31,24 @@
       </nav>
 
       <div class="container">
-        <h1>Receitas com Vinho Tinto</h1>
+        <label for="recvinho">Escreva o tipo de vinho que você gostaria de ver</label>
+        <input type="text" id="recvinho" placeholder="tinto, branco ou rose">
+        <button id="checarvinho" onclick="verreceita()">Ver receitas</button>
+        <h1 id="titreceita1"></h1>
         
         <div class="recipe">
-          <h2>Molho de Vinho Tinto para Massas</h2>
-          <p>Ingredientes:</p>
+          <h2 id="nomerec"></h2>
+          <p id="ingtit"></p>
           <ul>
-            <li>1 xícara de vinho tinto seco</li>
-            <li>2 colheres de sopa de azeite de oliva</li>
-            <li>2 dentes de alho picados</li>
-            <li>200g de cogumelos frescos fatiados</li>
-            <li>Sal e pimenta a gosto</li>
+            <li id="ingrediente1"></li>
+            <li id="ingrediente2"></li>
+            <li id="ingrediente3"></li>
+            <li id="ingrediente4"></li>
+            <li id="ingrediente5"></li>
           </ul>
-          <p>Modo de preparo:</p>
-          <p>Em uma frigideira, aqueça o azeite e refogue o alho até dourar levemente. Adicione os cogumelos fatiados e cozinhe até ficarem macios. Despeje o vinho tinto na frigideira e deixe reduzir pela metade, mexendo ocasionalmente. Tempere com sal e pimenta a gosto. Sirva sobre massas cozidas e finalize com queijo parmesão ralado, se desejar.</p>
+          <p id="modoprep"></p>
+          <p id="preparo"></p>
         </div>
-        
-        <div class="recipe">
-          <h2>Frutas Assadas com Vinho Tinto</h2>
-          <p>Ingredientes:</p>
-          <ul>
-            <li>4 maçãs</li>
-            <li>4 peras</li>
-            <li>1 xícara de vinho tinto seco</li>
-            <li>2 colheres de sopa de mel</li>
-            <li>1 colher de chá de canela em pó</li>
-          </ul>
-          <p>Modo de preparo:</p>
-          <p>Pré-aqueça o forno a 180°C. Descasque e corte as maçãs e peras em quartos, removendo as sementes. Coloque as frutas em uma assadeira e regue com o vinho tinto e o mel. Polvilhe com canela em pó. Asse no forno por 25-30 minutos, ou até que as frutas estejam macias e caramelizadas. Sirva quente acompanhado de sorvete de baunilha.</p>
-        </div>
-        
-        <div class="recipe">
-          <h2>Costela de Porco ao Vinho Tinto</h2>
-          <p>Ingredientes:</p>
-          <ul>
-            <li>1,5 kg de costela de porco</li>
-            <li>2 xícaras de vinho tinto seco</li>
-            <li>4 dentes de alho picados</li>
-            <li>2 folhas de louro</li>
-            <li>Sal e pimenta a gosto</li>
-          </ul>
-          <p>Modo de preparo:</p>
-          <p>Tempere a costela com sal, pimenta e alho picado. Em uma panela grande, aqueça um pouco de óleo e doure a costela de todos os lados. Adicione o vinho tinto e as folhas de louro. Tampe a panela e cozinhe em fogo baixo por cerca de 2 horas, ou até que a carne esteja macia e comece a se desprender dos ossos. Sirva a costela regada com o molho do cozimento.</p>
-        </div>
-      </div>
 
     <script src="script.js"></script>
 </body>
