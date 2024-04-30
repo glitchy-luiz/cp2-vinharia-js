@@ -66,13 +66,15 @@
         <div class="formulario">
           <h2>Contato:</h2>
           <br>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Telefone</label>
-            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="">
+          <div class="lform">
+            <div class="mb-3 nomeform">
+              <label for="exampleFormControlInput1" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -82,9 +84,20 @@
             <label for="exampleFormControlTextarea1" class="form-label">Sua mensagem</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="button" class="btn btn-primary" onclick="enviar()">Enviar</button>
+          <button type="button" id="envio" class="btn btn-primary" onclick="enviar()">Enviar</button>
         </div>
 
+
+        <footer>
+          <div class="container">
+              <div class="left-content">
+                  <p>Copyright © 2024 Vinheria. All rights reserved</p>
+              </div>
+              <div class="right-content">
+                  <p>CP Fiap</p>
+              </div>
+          </div>
+      </footer>
     </div>
     
     <script src="script.js"></script>
